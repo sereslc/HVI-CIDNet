@@ -355,7 +355,7 @@ Download our weights from [[Baidu Pan](https://pan.baidu.com/s/1rvQcQPwsYbtLIYwB
 python eval_hf.py --path fediory/our_model_path --input_img your/img/path --alpha_s 1.0 --alpha_i 1.0 --gamma 1.0
 
 # for example
-python eval_hf.py --path fediory/HVI-CIDNet-LOLv1-wperc --input_img ./datasets/DICM/01.JPG --alpha_s 1.0 --alpha_i 1.0 --gamma 1.0
+python eval_hf.py --path fediory/HVI-CIDNet-LOLv1-wperc --input_img ../datasets/DICM/01.JPG --alpha_s 1.0 --alpha_i 1.0 --gamma 1.0
 ```
 and your enhanced image will be saved at `./output_hf`.
 
